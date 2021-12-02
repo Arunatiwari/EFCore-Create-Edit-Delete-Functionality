@@ -45,7 +45,7 @@ namespace DAL
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"data source=192.168.1.7; initial catalog=EFCore6AM;persist security info=True;user id=sa;password=nrhm123;");
+            optionsBuilder.UseSqlServer(@"data source=000.000.000.000; initial catalog=EFCore6AM;persist security info=True;user id=xyz;password=xyz;");
         }
     }
 
